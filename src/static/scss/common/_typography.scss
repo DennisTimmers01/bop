@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'sk-modernist';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/sk-modernist/sk-modernist-regular-webfont.eot');
+  src: url('../fonts/sk-modernist/sk-modernist-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/sk-modernist/sk-modernist-regular-webfont.woff2') format('woff2'),
+       url('../fonts/sk-modernist/sk-modernist-regular-webfont.woff') format('woff'),
+       url('../fonts/sk-modernist/sk-modernist-regular-webfont.ttf')  format('truetype'),
+       url('../fonts/sk-modernist/sk-modernist-regular-webfont.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'sk-modernist';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../fonts/sk-modernist/sk-modernist-bold-webfont.eot');
+  src: url('../fonts/sk-modernist/sk-modernist-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/sk-modernist/sk-modernist-bold-webfont.woff2') format('woff2'),
+       url('../fonts/sk-modernist/sk-modernist-bold-webfont.woff') format('woff'),
+       url('../fonts/sk-modernist/sk-modernist-bold-webfont.ttf')  format('truetype'),
+       url('../fonts/sk-modernist/sk-modernist-bold-webfont.svg') format('svg');
+}
+
+// @font-face {
+//   font-family: 'sk-modernist';
+//   font-weight: lighter;
+//   font-style: mono;
+//   src: url('../fonts/sk-modernist/sk-modernist-mono-webfont.eot');
+//   src: url('../fonts/sk-modernist/sk-modernist-mono-webfont.eot?#iefix') format('embedded-opentype'),
+//        url('../fonts/sk-modernist/sk-modernist-mono-webfont.woff2') format('woff2'),
+//        url('../fonts/sk-modernist/sk-modernist-mono-webfont.woff') format('woff'),
+//        url('../fonts/sk-modernist/sk-modernist-mono-webfont.ttf')  format('truetype'),
+//        url('../fonts/sk-modernist/sk-modernist-mono-webfont.svg') format('svg');
+// }
+
+body {
+    font-family: 'sk-modernist', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+  font-family: 'sk-modernist';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $primary-color;
+
+  span {
+    font-weight: normal;
+  }
+}
+
+p {
+  font-family: 'sk-modernist';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $text-color;
+}
+
+.legend {
+  list-style-type: none;
+  padding: 0;
+
+  li a {
+    color: $list-item;
+    text-decoration: none;
+  }
+}
+
+.persona,
+.about {
+  p {
+    color: $secondary-color;
+    font-weight: normal;
+
+    span {
+      color: $text-color;
+      font-weight: bold;
+    }
+  }
+}
+
+.status {
+  p {
+    color: $secondary-color;
+    font-weight: normal;
+
+    span {
+      font-weight: normal;
+      color: white;
+    }
+
+    a {
+      color: $pending;
+      text-decoration: none;
+    }
+  }
+}
+
+.about-text {
+  h2 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: $secondary-color;
+  }
+
+  p {
+    text-transform: none;
+    color: $text-color;
+  }
+}

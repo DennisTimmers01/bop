@@ -1,0 +1,23 @@
+.about {
+  padding: 1em;
+
+  p {
+    position: relative;
+
+    span {
+      position: absolute;
+      left: 7em;
+    }
+  }
+}
+
+.about-text {
+  margin-top: 2em;
+  
+  h2 {
+    margin-bottom: .2em;
+  }
+  p {
+    margin-top: 0;
+  }
+}

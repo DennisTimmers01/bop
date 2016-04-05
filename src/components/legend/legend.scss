@@ -1,0 +1,13 @@
+.legend {
+  padding: 1em;
+  counter-reset: section;
+
+  li {
+    max-width: 15em;
+
+    &:before {
+      counter-increment: section;
+      content: counters(section, ".") " ";
+    }
+  }
+}
